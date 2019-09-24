@@ -5,7 +5,7 @@
     "build": "yarn --cwd web build",
     "start": "yarn --cwd web start",
     "test": "run-s test:*",
-    "test:crate": "yarn --cwd crate test",
+    "test:crate": "cd crate; make test",
     "test:web": "yarn --cwd web test"
   },
   "devDependencies": {
