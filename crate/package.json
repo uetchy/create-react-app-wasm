@@ -1,6 +1,0 @@
-{
-  "name": "@create-react-app-wasm/crate",
-  "scripts": {
-    "test": "wasm-pack test --firefox --headless"
-  }
-}

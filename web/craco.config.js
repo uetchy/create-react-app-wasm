@@ -32,6 +32,7 @@ const wasmPlugin = {
           //
           // Default arguments are `--typescript --target browser --mode normal`.
           // extraArgs: '--no-typescript',
+          withTypeScript: true,
 
           // Optional array of absolute paths to directories, changes to which
           // will trigger the build.

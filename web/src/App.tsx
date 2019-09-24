@@ -6,7 +6,7 @@ const App: React.FC = () => {
   React.useEffect(() => {
     (async () => {
       const crate = await import('./crate');
-      console.log(crate.greet());
+      crate.greet();
     })();
   }, []);
 
