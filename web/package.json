@@ -4,7 +4,7 @@
     "build": "craco build",
     "eject": "craco eject",
     "start": "craco start",
-    "test": "craco test --watchAll=false"
+    "test": "craco test"
   },
   "dependencies": {
     "@craco/craco": "^5.5.0",

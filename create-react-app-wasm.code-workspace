@@ -1,15 +1,16 @@
 {
   "folders": [
     {
-      "name": "crate",
       "path": "crate"
     },
     {
-      "name": "web",
       "path": "web"
+    },
+    {
+      "path": "."
     }
   ],
   "settings": {
-    "jest.disabledWorkspaceFolders": ["crate"]
+    "jest.disabledWorkspaceFolders": ["crate", "create-react-app-wasm"]
   }
 }
