@@ -22,5 +22,6 @@ Compile `.rs` to `.wasm` using `wasm-pack` then build React app using `create-re
 
 - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 - [React documentation](https://reactjs.org/)
+- [wasm-bindgen documentation](https://rustwasm.github.io/docs/wasm-bindgen/)
 - [wasm-pack documentation](https://rustwasm.github.io/docs/wasm-pack/)
 - [wasm-pack-plugin documentation](https://github.com/wasm-tool/wasm-pack-plugin)
