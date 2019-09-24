@@ -3,6 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 const App: React.FC = () => {
+  React.useEffect(() => {
+    (async () => {
+      const crate = await import('./crate');
+      console.log(crate.greet());
+    })();
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -14,13 +21,12 @@ const App: React.FC = () => {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
       </header>
     </div>
   );
-}
+};
 
 export default App;

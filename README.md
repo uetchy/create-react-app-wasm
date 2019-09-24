@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Create React App + WebAssembly (Rust)
+
+`yarn build`: compile `.rs` to `.wasm` using `wasm-pack` then build React app using `create-react-app`.
+
+`yarn start`: start watching `.rs` and `.ts` and rebuild if files are changed.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [wasm-pack-template](https://github.com/rustwasm/wasm-pack-template).
 
 ## Available Scripts
 

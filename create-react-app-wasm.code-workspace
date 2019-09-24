@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "crate",
+      "path": "crate"
+    },
+    {
+      "name": "web",
+      "path": "web"
+    }
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": ["crate"]
+  }
+}
