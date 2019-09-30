@@ -3,12 +3,7 @@ const WasmPackPlugin = require('@wasm-tool/wasm-pack-plugin');
 
 const wasmPlugin = {
   plugin: {
-    overrideWebpackConfig: ({
-      webpackConfig,
-      cracoConfig,
-      pluginOptions,
-      context: {env, paths},
-    }) => {
+    overrideWebpackConfig: ({webpackConfig}) => {
       const wasmExtensionRegExp = /\.wasm$/;
 
       // derived from here
@@ -69,6 +64,16 @@ const wasmPlugin = {
 
 module.exports = function({env}) {
   return {
+    eslint: {
+      configure: {
+        overrides: [
+          {
+            files: ['src/crate/*.js'],
+            rules: {eqeqeq: 'off', 'no-unused-vars': 'off'},
+          },
+        ],
+      },
+    },
     plugins: [wasmPlugin],
   };
 };

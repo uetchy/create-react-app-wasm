@@ -3,7 +3,7 @@
   "scripts": {
     "build": "craco build",
     "eject": "craco eject",
-    "start": "craco start",
+    "start": "craco start | cat",
     "test": "craco test"
   },
   "dependencies": {

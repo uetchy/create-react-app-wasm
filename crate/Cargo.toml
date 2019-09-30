@@ -3,6 +3,9 @@ name = "create-react-app-wasm"
 version = "0.1.0"
 authors = []
 edition = "2018"
+description = ""
+repository = ""
+license = "LICENSE"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
